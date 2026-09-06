@@ -1,0 +1,4 @@
+interface:
+  display_name: "法律来源核验"
+  short_description: "审计事实来源、法律依据、冲突、假设与材料缺口"
+  default_prompt: "请对这份法律分析做来源核验，逐项标明证据状态、冲突、隐含假设和仍需补证的内容。"
