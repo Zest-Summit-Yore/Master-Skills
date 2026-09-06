@@ -1,0 +1,4 @@
+interface:
+  display_name: "中国并购尽调工作台"
+  short_description: "并购尽调、问题提取、重大合同、交割清单与 Request List"
+  default_prompt: "请按中国并购尽调工作台处理这些材料，保留来源状态并输出可核查的问题与后续请求。"

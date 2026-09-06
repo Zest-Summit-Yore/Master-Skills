@@ -1,0 +1,4 @@
+interface:
+  display_name: "交易文件交叉核对"
+  short_description: "核对交易文件包的版本、定义、数字、条件和修订痕迹"
+  default_prompt: "请交叉核对这组交易文件，优先识别会影响交易执行的冲突，并给出精确位置和修改建议。"
