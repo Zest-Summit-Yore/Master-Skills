@@ -11,7 +11,6 @@ permissions:
 
 jobs:
   unpack:
-    if: ${{ hashFiles('skills-bundle.zip') != '' }}
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -21,6 +20,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          if [ ! -f skills-bundle.zip ]; then
+            exit 0
+          fi
           find . -mindepth 1 -maxdepth 1 \
             ! -name '.git' \
             ! -name '.github' \
