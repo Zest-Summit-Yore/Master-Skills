@@ -1,0 +1,4 @@
+interface:
+  display_name: "律师三层代理编排"
+  short_description: "分派法律分析、文档处理与最终复核"
+  default_prompt: "使用 $three-tier-agent-orchestrator 处理这项律师工作：由 Luna Max 负责文件与 OCR，Sol Medium 负责法律分析和起草，Astra Low 负责复杂判断与复核。"
